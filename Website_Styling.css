@@ -16,7 +16,7 @@
 * {
     background-image: url("Images\Custom Houses\IMG-3073.jpg");
     scroll-behavior: unset;
-    border: 1px solid red;
+    border: 1px solid green;
 }
 
 h1 {
@@ -145,7 +145,7 @@ footer .flex2 {
     bottom: 30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1800px) {
     #Logo-FCH {
         width: 40px !important;
     }
