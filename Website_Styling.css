@@ -145,7 +145,7 @@ footer .flex2 {
     bottom: 30px;
 }
 
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 300px) {
     #Logo-FCH {
         width: 40px;
     }
