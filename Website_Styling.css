@@ -16,6 +16,7 @@
 * {
     background-image: url("Images\Custom Houses\IMG-3073.jpg");
     scroll-behavior: unset;
+    border: 1px solid red;
 }
 
 h1 {
@@ -112,9 +113,19 @@ a:visited {
     color: black;
 }
 
-.footer {
+footer {
     font-style: normal;
     font-size: 40px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+footer .flex2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #name {
