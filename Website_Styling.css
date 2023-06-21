@@ -61,16 +61,25 @@ p {
     font-weight: 500;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+
+}
 footer {
-    background-color: rgb(175, 175, 175);
-    color: red;
     bottom: 0px;
     width: 100%;
+    background-image: linear-gradient(230deg, rgb(71, 71, 71), rgb(187, 187, 187) 60%);
 }
 
 ul {
     list-style-type: square;
     padding-top: 0px;
+    padding-top: 125px;
 }
 
 li {
@@ -96,10 +105,6 @@ li {
     letter-spacing: 1.2px;
     margin: 10px;
     font-style: italic;
-}
-
-footer {
-    background-image: linear-gradient(230deg, rgb(71, 71, 71), rgb(187, 187, 187) 60%);
 }
 
 a:link {
