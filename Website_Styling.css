@@ -148,7 +148,7 @@ footer .flex2 {
     bottom: 30px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1118px) {
     #Logo-FCH {
         width: 330px !important;
         position: relative;
@@ -156,14 +156,19 @@ footer .flex2 {
     }
     
     header {
-      padding-top: 30px;
+      padding-top: 0px;
       padding-bottom: 30px;
     }
   
     ul {
-      padding-top: 200px; /* Adjust this value based on how much space you need */
+      padding-top: 240px; /* Adjust this value based on how much space you need */
     }
   }
+
+@media only screen and (max-width: 735px) {
+    ul {
+        padding-top: 350px;
+    }
   
   @media only screen and (max-width: 400px) {
     header {
