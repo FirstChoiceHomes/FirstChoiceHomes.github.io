@@ -78,8 +78,7 @@ footer {
 
 ul {
     list-style-type: square;
-    padding-top: 0px;
-    padding-top: 125px;
+    padding-top: 120px;
 }
 
 li {
@@ -87,6 +86,12 @@ li {
     font-weight: 400;
     font-family: Quicksand;
     color: black;
+}
+
+@media only screen and (max-width: 400px) {
+    ul {
+        padding-top: 350px;
+    }
 }
 
 .SocialMedia {
