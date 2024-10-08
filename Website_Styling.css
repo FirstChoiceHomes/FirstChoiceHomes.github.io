@@ -51,6 +51,41 @@ h1 {
   text-align: center;
 }
 
+.listRowContainer {
+    display: flex;
+    justify-content: space-between; /* Space between title and list */
+    align-items: center; /* Center align vertically */
+    width: 100%; /* Ensure full width */
+    border: 6px solid black;    
+  }
+  
+  h2 {
+    margin-left: 290px;
+    font-family: "Montserrat";
+    flex: 1; /* Allow it to take available space */
+    max-width: 650px;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex;
+    flex-direction: column; /* Stack list items vertically */
+    gap: 10px; /* Space between list items */
+    padding: 0;
+    margin: 0;
+    margin-left: 100px;
+    margin-right: auto;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  li {
+    margin: 0;
+  }
+  
+  
 h3 {
   color: white;
   margin: 5px;
@@ -98,20 +133,6 @@ footer {
     rgb(71, 71, 71),
     rgb(187, 187, 187) 60%
   );
-}
-
-ul {
-  list-style-type: none;
-  padding-top: 15px;
-  text-align: center;
-  margin-right: 110px;
-}
-
-li {
-  font-size: 65px;
-  font-weight: 400;
-  font-family: Quicksand;
-  color: black;
 }
 
 .SocialMedia {
@@ -188,6 +209,10 @@ footer .flex2 {
   margin-right: 20px;
   padding-right: 20px;
   font-family: "Montserrat";
+}
+
+.bottomText {
+    font-style: none;
 }
 
 #Logo-FCH {
