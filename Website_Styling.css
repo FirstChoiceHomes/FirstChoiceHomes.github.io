@@ -211,8 +211,9 @@ footer .flex2 {
   font-family: "Montserrat";
 }
 
-.bottomText {
-    font-style: none;
+.bottomText h3,
+.bottomText h4 {
+    font-style: normal;
 }
 
 #Logo-FCH {
