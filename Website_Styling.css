@@ -1,272 +1,272 @@
 @font-face {
-  font-family: "Vastine";
-  src: url("Fonts/Vastine-Regular[1].otf") format("truetype");
-}
-
-@font-face {
-  font-family: "Riporno";
-  src: url("Fonts/Riporno[1].otf") format("truetype");
-}
-
-@font-face {
-  font-family: "Quicksand";
-  src: url("Fonts/Quicksand-VariableFont_wght[1].ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("Fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
-}
-
-body {
-  /*background-image: url("WebsiteFolder/Images/Custom Houses/IMG-3073.jpg");*/
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
-h1 {
-  color: rgb(9, 19, 112);
-  background-image: linear-gradient(
-    230deg,
-    rgb(53, 53, 53),
-    rgb(213, 213, 213) 60%
-  );
-  font-family: Montserrat;
-  text-transform: uppercase;
-  font-size: 100px;
-  margin: 0px;
-  font-weight: 900;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  text-align: center;
-}
-
-.listRowContainer {
-    display: flex;
-    justify-content: space-between; /* Space between title and list */
-    align-items: center; /* Center align vertically */
-    width: 100%; /* Ensure full width */
-    border: 6px solid black;    
+    font-family: "Vastine";
+    src: url("Fonts/Vastine-Regular[1].otf") format("truetype");
   }
   
-  h2 {
-    margin-left: 290px;
+  @font-face {
+    font-family: "Riporno";
+    src: url("Fonts/Riporno[1].otf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Quicksand";
+    src: url("Fonts/Quicksand-VariableFont_wght[1].ttf") format("truetype");
+  }
+  
+  @font-face {
     font-family: "Montserrat";
-    flex: 1; /* Allow it to take available space */
-    max-width: 650px;
-    font-size: 40px;
+    src: url("Fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  }
+  
+  body {
+    /*background-image: url("WebsiteFolder/Images/Custom Houses/IMG-3073.jpg");*/
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  h1 {
+    color: rgb(9, 19, 112);
+    background-image: linear-gradient(
+      230deg,
+      rgb(53, 53, 53),
+      rgb(213, 213, 213) 60%
+    );
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 0px;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
     text-align: center;
   }
   
-  ul {
-    list-style-type: none; /* Remove bullet points */
-    display: flex;
-    flex-direction: column; /* Stack list items vertically */
-    gap: 10px; /* Space between list items */
-    padding: 0;
-    margin: 0;
-    margin-left: 100px;
-    margin-right: auto;
+  .listRowContainer {
+      display: flex;
+      justify-content: space-between; /* Space between title and list */
+      align-items: center; /* Center align vertically */
+      width: 100%; /* Ensure full width */
+      border: 6px solid black;    
+    }
+    
+    h2 {
+      margin-left: auto;
+      font-family: "Montserrat";
+      flex: 1; /* Allow it to take available space */
+      max-width: 650px;
+      font-size: 40px;
+      text-align: center;
+    }
+    
+    ul {
+      list-style-type: none; /* Remove bullet points */
+      display: flex;
+      flex-direction: column; /* Stack list items vertically */
+      gap: 10px; /* Space between list items */
+      margin-left: 100px;
+      margin-right: auto;
+      padding-right: 15vw;
+      font-size: 50px;
+      text-align: center;
+    }
+    
+    li {
+      margin: 0;
+    }
+    
+    
+  h3 {
+    color: white;
+    margin: 5px;
     font-size: 50px;
-    text-align: center;
+    background-color: transparent;
+    color: black;
   }
   
-  li {
+  h4 {
+    background-color: transparent;
+    border: transparent;
+    margin: 5px;
+    font-size: 53px;
+    font-style: italic;
+    font-weight: 550;
+    color: black;
+  }
+  
+  p {
+    font-family: quicksand;
+    line-height: 1.5em;
+    font-size: 35px;
+    color: gray;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-weight: 500;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     margin: 0;
+    padding: 0;
   }
   
+  footer {
+    bottom: 0px;
+    width: 100%;
+    background-image: linear-gradient(
+      230deg,
+      rgb(71, 71, 71),
+      rgb(187, 187, 187) 60%
+    );
+  }
   
-h3 {
-  color: white;
-  margin: 5px;
-  font-size: 50px;
-  background-color: transparent;
-  color: black;
-}
-
-h4 {
-  background-color: transparent;
-  border: transparent;
-  margin: 5px;
-  font-size: 53px;
-  font-style: italic;
-  font-weight: 550;
-  color: black;
-}
-
-p {
-  font-family: quicksand;
-  line-height: 1.5em;
-  font-size: 35px;
-  color: gray;
-  margin-top: 150px;
-  margin-bottom: 20px;
-  margin-right: 25px;
-  margin-left: 25px;
-  font-weight: 500;
-}
-
-header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-}
-
-footer {
-  bottom: 0px;
-  width: 100%;
-  background-image: linear-gradient(
-    230deg,
-    rgb(71, 71, 71),
-    rgb(187, 187, 187) 60%
-  );
-}
-
-.SocialMedia {
-  height: 57px;
-  width: 57px;
-  padding: 10px;
-  background-color: black;
-  border-radius: 15px;
-  margin-bottom: -15px;
-}
-
-a {
+  .SocialMedia {
+    height: 57px;
+    width: 57px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 15px;
+    margin-bottom: -15px;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  #email {
+    background-color: transparent;
+    color: black;
+    font-weight: 1000;
+    font-size: 40px;
+    letter-spacing: 1.2px;
+    margin: 10px;
+    font-style: italic;
+  }
+  
+  a:link {
+    color: black;
+    font-style: italic;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(230deg, #474747, #bbbbbb 60%);
+    color: white;
+  }
+  
+  .footer-column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .flex1 {
+    font-family: "Montserrat";
+    color: #333; /* Choose a color that fits your design */
+  }
+  
+  .flex1 h4,
+  .flex1 h3 {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .flex1 a {
+    color: #001f98; /* Ensure the link color stands out */
     text-decoration: none;
-}
-
-#email {
-  background-color: transparent;
-  color: black;
-  font-weight: 1000;
-  font-size: 40px;
-  letter-spacing: 1.2px;
-  margin: 10px;
-  font-style: italic;
-}
-
-a:link {
-  color: black;
-  font-style: italic;
-}
-
-a:visited {
-  color: black;
-}
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background: linear-gradient(230deg, #474747, #bbbbbb 60%);
-  color: white;
-}
-
-.footer-column {
-  flex: 1;
-  padding: 10px;
-}
-
-.flex1 {
-  font-family: "Montserrat";
-  color: #333; /* Choose a color that fits your design */
-}
-
-.flex1 h4,
-.flex1 h3 {
-  margin: 10px 0;
-  font-weight: bold;
-}
-
-.flex1 a {
-  color: #001f98; /* Ensure the link color stands out */
-  text-decoration: none;
-}
-
-.flex1 a:hover {
-  text-decoration: underline;
-}
-
-footer .flex2 {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 20px;
-  padding-right: 20px;
-  font-family: "Montserrat";
-}
-
-.bottomText h3,
-.bottomText h4 {
-    font-style: normal;
-}
-
-#Logo-FCH {
-  margin: 20px;
-  padding: 20px;
-  padding-right: 20px;
-}
-
-#name {
-  padding-top: 10px;
-}
-
-#logo {
-  height: 300px;
-  right: 35px;
-  bottom: 30px;
-}
-
-a:hover {
-  color: #001f98;
-  text-decoration: underline;
-}
-
-@media only screen and (max-width: 1118px) {
+  }
+  
+  .flex1 a:hover {
+    text-decoration: underline;
+  }
+  
+  footer .flex2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    padding-right: 20px;
+    font-family: "Montserrat";
+  }
+  
+  .bottomText h3,
+  .bottomText h4 {
+      font-style: normal;
+  }
+  
   #Logo-FCH {
-    width: 330px !important;
-    position: relative;
-    right: 332px;
+    margin: 20px;
+    padding: 20px;
+    padding-right: 20px;
   }
-
-  header {
-    padding-top: 0px;
-    padding-bottom: 30px;
+  
+  #name {
+    padding-top: 10px;
   }
-
-  p {
-    padding-top: 240px; /* Adjust this value based on how much space you need */
+  
+  #logo {
+    height: 300px;
+    right: 35px;
+    bottom: 30px;
   }
-}
-
-@media only screen and (max-width: 735px) {
-  p {
-    padding-top: 350px;
+  
+  a:hover {
+    color: #001f98;
+    text-decoration: underline;
   }
-}
-
-@media only screen and (max-width: 400px) {
-  header {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  
+  @media only screen and (max-width: 1118px) {
+    #Logo-FCH {
+      width: 330px !important;
+      position: relative;
+      right: 332px;
+    }
+  
+    header {
+      padding-top: 0px;
+      padding-bottom: 30px;
+    }
+  
+    p {
+      padding-top: 240px; /* Adjust this value based on how much space you need */
+    }
   }
-
-  p {
-    padding-top: 350px;
+  
+  @media only screen and (max-width: 735px) {
+    p {
+      padding-top: 350px;
+    }
   }
-}
+  
+  @media only screen and (max-width: 400px) {
+    header {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  
+    p {
+      padding-top: 350px;
+    }
+  }
+  
